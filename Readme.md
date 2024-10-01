@@ -19,7 +19,7 @@ The application (Beta) follows a modular architecture (Layered Architecture) wit
 
 ### Directory Structure
 	
-	```
+
 📦 WordFrequencyCounter
 ├─ WordFrequencyCalcAlpha		// Alpha Version (Monolithic Architecture & Simplistic Approach)	
 │  └─ Program.cs				// Monolith
@@ -31,7 +31,7 @@ The application (Beta) follows a modular architecture (Layered Architecture) wit
 │     └─ FrequencyWriter.cs		// File writing logic
 └─ Tests
    └─ WordFrequencyTests.cs		// Unit tests
-```
+
 
 
 
