@@ -21,19 +21,19 @@ The application (Beta) follows a modular architecture (Layered Architecture) wit
 
 WordFrequencyCounter<br />
 │<br />
-├──	WordFrequencyCalcAlpha		  // Alpha Version (Monolithic Architecture & Simplistic Approach)<br />
-│	│<br />
-│	├── Program.cs                // Monolith<br />
-│	│<br />
-├──	WordFrequencyCalcBeta		  // Beta Version (Layered Architecture)<br />
-│	│<br />
-│	├── Program.cs                // Presentation layer | Entry point<br />
-│	├── Services<br />
-│	│   ├── FileProcessor.cs      // File chunk reading and processing logic<br />
-│	├── Infrastructure<br />
-│	│   └── FrequencyWriter.cs    // File writing logic<br />
+├──	WordFrequencyCalcAlpha        // Alpha Version (Monolithic Architecture & Simplistic Approach)<br />
+│   │<br />
+│   ├── Program.cs                // Monolith<br />
+│   │<br />
+├── WordFrequencyCalcBeta         // Beta Version (Layered Architecture)<br />
+│   │<br />
+│   ├── Program.cs                // Presentation layer | Entry point<br />
+│   ├── Services<br />
+│   │   ├── FileProcessor.cs      // File chunk reading and processing logic<br />
+│   ├── Infrastructure<br />
+│   │   └── FrequencyWriter.cs    // File writing logic<br />
 Tests<br />
-	└── WordFrequencyTests.cs 	  // Unit tests<br />
+	└── WordFrequencyTests.cs     // Unit tests<br />
 
 ### Key Components
 
@@ -67,11 +67,11 @@ WordFrequencyCalcBeta.exe <input-file-path> <output-file-path>
 WordFrequencyCounter.exe "C:\InputFiles\large_text.txt" "C:\OutputFiles\word_frequencies.txt"
 
 ## Example Output
-the,18
-and,8
-file,5
-be,4
-in,4
+the,18<br />
+and,8<br />
+file,5<br />
+be,4<br />
+in,4<br />
 
 ## Future Enhancements
 
@@ -81,7 +81,7 @@ in,4
 
 ## Performance Tests
 
-The files are randomly generated soo different files can (and should) make for different performance times.
+The files are randomly generated. Different files will make for different performance.
 
 ### Processing 100MB File
 
