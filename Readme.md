@@ -47,6 +47,16 @@ Tests
 
 - **WordFrequencyTests.cs**: Contains unit tests to validate the behavior of the FileProcessor and FileWriter components. These tests ensure the correct counting of word frequencies and the correct output format.
 
+### Why Layered Architecture
+
+- **Separation of Concerns**: This architecture provides clear separation of concerns, allowing focus on one part of the code at a time.
+
+- **Testability**: The business logic can be easily unit tested without worrying about I/O (file reading and writing).
+
+- **Scalability**: If in the future we want to extend the application (e.g., processing different types of files or adding different sorting/filtering logic), it’s much easier to do within this architecture.
+
+- **Maintainability**: As the application grows, it will be easier to maintain and add new features without a complete overhaul of the system.
+
 ## Prerequisites
 
 - .NET SDK (Core or Framework, depending on your setup)
@@ -79,9 +89,31 @@ world,3<br />
 
 ## Future Enhancements
 
+### Improvements
+
 1. Cloud Storage Integration: Add support for cloud storage providers (e.g., AWS S3, Azure Blob Storage) to handle distributed file processing.
 2. Real-Time Stream Processing: Extend the application to handle real-time text streams for live word frequency analysis.
 3. Logging and Monitoring: Add comprehensive logging and monitoring for better debugging and performance tracking.
+
+### Eventual Architectural Changes
+If the **Word Frequency Counter** application grew significantly larger and more complex, expanding its feature set, handling higher loads, or integrating with other systems, it would be better to move beyond a simple console application architecture to something more scalable, maintainable, and resilient.
+Something like:
+
+#### Microservices Architecture
+If the Word Frequency Counter evolves into a larger, distributed system with multiple responsibilities (e.g., handling different types of inputs, interacting with external APIs, real-time processing, etc.), moving to a microservices architecture could be a natural progression.
+
+**Description:**
+Microservices break down your application into smaller, independent services. Each service focuses on a single responsibility and can scale independently. For example, one service could handle file ingestion, another could handle word counting, and another could manage results storage.
+
+**Advantages:**
+- Scalability: Each service can be scaled independently based on load. If word processing becomes the bottleneck, you can spin up more instances of that microservice without affecting other parts.
+- Fault Isolation: Failures in one microservice do not bring down the entire system.
+- Technology Agnostic: Each microservice can be built using different technologies that best suit its needs (e.g., C# for some services, Python for others).
+- Extensibility: Easy to extend the system by adding new services (e.g., integrating machine learning for advanced text analysis).
+
+**Disadvantages:**
+- Complexity: Microservices introduce additional complexity (e.g., handling service discovery, API communication, and data consistency).
+- Infrastructure Overhead: Requires more resources for orchestration (Kubernetes, Docker, etc.) and communication between services (APIs, message queues, etc.).
 
 ## Performance Tests
 
