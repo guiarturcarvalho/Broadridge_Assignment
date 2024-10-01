@@ -20,21 +20,21 @@ The application (Beta) follows a modular architecture (Layered Architecture) wit
 ### Directory Structure
 
 ```
-WordFrequencyCounter<br />
-│<br />
-├──	WordFrequencyCalcAlpha        // Alpha Version (Monolithic Architecture & Simplistic Approach)<br />
-│   │<br />
-│   ├── Program.cs                // Monolith<br />
-│   │<br />
-├── WordFrequencyCalcBeta         // Beta Version (Layered Architecture)<br />
-│   │<br />
-│   ├── Program.cs                // Presentation layer | Entry point<br />
-│   ├── Services<br />
-│   │   ├── FileProcessor.cs      // File chunk reading and processing logic<br />
-│   ├── Infrastructure<br />
-│   │   └── FrequencyWriter.cs    // File writing logic<br />
-Tests<br />
-	└── WordFrequencyTests.cs     // Unit tests<br />
+WordFrequencyCounter
+│
+├──	WordFrequencyCalcAlpha			// Alpha Version (Monolithic Architecture & Simplistic Approach)
+│   │
+│   ├── Program.cs				// Monolith
+│   │
+├── WordFrequencyCalcBeta			// Beta Version (Layered Architecture)
+│   │
+│   ├── Program.cs				// Presentation layer | Entry point
+│   ├── Services
+│   │   ├── FileProcessor.cs			// File chunk reading and processing logic
+│   ├── Infrastructure
+│   │   └── FrequencyWriter.cs			// File writing logic
+Tests
+	└── WordFrequencyTests.cs		// Unit tests
 ```
 
 ### Key Components
