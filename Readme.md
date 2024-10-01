@@ -109,10 +109,10 @@ Something like:
 If the Word Frequency Counter evolves into a larger, distributed system with multiple responsibilities (e.g., handling different types of inputs, interacting with external APIs, real-time processing, etc.), moving to a microservices architecture could be a natural progression.
 
 **Description:**
-Microservices break down your application into smaller, independent services. Each service focuses on a single responsibility and can scale independently. For example, one service could handle file ingestion, another could handle word counting, and another could manage results storage.
+Microservices break down the application into smaller, independent services. Each service focuses on a single responsibility and can scale independently. For example, one service could handle file ingestion, another could handle word counting, and another could manage results storage.
 
 **Advantages:**
-- Scalability: Each service can be scaled independently based on load. If word processing becomes the bottleneck, you can spin up more instances of that microservice without affecting other parts.
+- Scalability: Each service can be scaled independently based on load. If word processing becomes the bottleneck, we can spin up more instances of that microservice without affecting other parts.
 - Fault Isolation: Failures in one microservice do not bring down the entire system.
 - Technology Agnostic: Each microservice can be built using different technologies that best suit its needs (e.g., C# for some services, Python for others).
 - Extensibility: Easy to extend the system by adding new services (e.g., integrating machine learning for advanced text analysis).
