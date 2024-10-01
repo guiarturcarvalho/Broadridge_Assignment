@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "WordFrequencyCalc": {
+      "commandName": "Project",
+      "commandLineArgs": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\input_text_alpha.txt C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\output_text_alpha.txt"
+    }
+  }
+}

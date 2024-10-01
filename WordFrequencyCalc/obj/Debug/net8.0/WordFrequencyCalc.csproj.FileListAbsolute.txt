@@ -1,0 +1,15 @@
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\bin\Debug\net8.0\WordFrequencyCalc.exe
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\bin\Debug\net8.0\WordFrequencyCalc.deps.json
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\bin\Debug\net8.0\WordFrequencyCalc.runtimeconfig.json
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\bin\Debug\net8.0\WordFrequencyCalc.dll
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\bin\Debug\net8.0\WordFrequencyCalc.pdb
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\obj\Debug\net8.0\WordFrequencyCalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\obj\Debug\net8.0\WordFrequencyCalc.AssemblyInfoInputs.cache
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\obj\Debug\net8.0\WordFrequencyCalc.AssemblyInfo.cs
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\obj\Debug\net8.0\WordFrequencyCalc.csproj.CoreCompileInputs.cache
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\obj\Debug\net8.0\WordFrequencyCalc.sourcelink.json
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\obj\Debug\net8.0\WordFrequencyCalc.dll
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\obj\Debug\net8.0\refint\WordFrequencyCalc.dll
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\obj\Debug\net8.0\WordFrequencyCalc.pdb
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\obj\Debug\net8.0\WordFrequencyCalc.genruntimeconfig.cache
+C:\Users\guiar\Documents\GitHub\Broadridge_Assignment\WordFrequencyCalc\obj\Debug\net8.0\ref\WordFrequencyCalc.dll
