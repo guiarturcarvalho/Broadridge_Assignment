@@ -15,7 +15,13 @@ The **Word Frequency Counter** is a C# console application designed to process l
 
 ## Architecture
 
-The application (Beta) follows a modular architecture (Layered Architecture) with clear separation of concerns, ensuring maintainability and extensibility.
+### Alpha Project
+
+The "Alpha" application follows a molothic and simplistic approach. It can be seen as a learning step towards the Beta version.
+
+### Beta Project
+
+The "Beta" application follows a modular architecture (Layered Architecture) with clear separation of concerns, ensuring maintainability and extensibility.
 
 ### Directory Structure
 
@@ -173,7 +179,7 @@ The files are randomly generated. Different files will make for different perfor
 
 ### Conclusion
 
-While there is no one-size-fits-all answer to the optimal chunk size, in this case it seems that using 512KB chunks is more effective. Be prepared to adjust based on performance tests and the specific characteristics of your application's workload. Always test with representative data and monitor resource usage to find the best configuration. We must always have in mind File Size, Memory, I/O Performance, Network or even Processing Overhead.
+While there is no one-size-fits-all answer to the optimal chunk size, in this case it seems that using 512KB chunks is more effective. Its always good to adjust based on performance tests and the specific characteristics of the application's workload. Always test with representative data and monitor resource usage to find the best configuration. We must always have in mind File Size, Memory, I/O Performance, Network or even Processing Overhead.
 
 
 
