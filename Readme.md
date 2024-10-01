@@ -18,22 +18,22 @@ The **Word Frequency Counter** is a C# console application designed to process l
 The application (Beta) follows a modular architecture (Layered Architecture) with clear separation of concerns, ensuring maintainability and extensibility.
 
 ### Directory Structure
+	
+	```
+📦 WordFrequencyCounter
+├─ WordFrequencyCalcAlpha		// Alpha Version (Monolithic Architecture & Simplistic Approach)	
+│  └─ Program.cs				// Monolith
+├─ WordFrequencyCalcBeta		// Beta Version (Layered Architecture)
+│  ├─ Program.cs				// Presentation layer | Entry point
+│  ├─ Services					
+│  │  └─ FileProcessor.cs		// File chunk reading and processing logic
+│  └─ Infrastructure
+│     └─ FrequencyWriter.cs		// File writing logic
+└─ Tests
+   └─ WordFrequencyTests.cs		// Unit tests
+```
 
-WordFrequencyCounter<br />
-│<br />
-├──	WordFrequencyCalcAlpha        // Alpha Version (Monolithic Architecture & Simplistic Approach)<br />
-│   │<br />
-│   ├── Program.cs                // Monolith<br />
-│   │<br />
-├── WordFrequencyCalcBeta         // Beta Version (Layered Architecture)<br />
-│   │<br />
-│   ├── Program.cs                // Presentation layer | Entry point<br />
-│   ├── Services<br />
-│   │   ├── FileProcessor.cs      // File chunk reading and processing logic<br />
-│   ├── Infrastructure<br />
-│   │   └── FrequencyWriter.cs    // File writing logic<br />
-Tests<br />
-	└── WordFrequencyTests.cs     // Unit tests<br />
+
 
 ### Key Components
 
@@ -67,11 +67,13 @@ WordFrequencyCalcBeta.exe <input-file-path> <output-file-path>
 WordFrequencyCounter.exe "C:\InputFiles\large_text.txt" "C:\OutputFiles\word_frequencies.txt"
 
 ## Example Output
-the,18<br />
-and,8<br />
-file,5<br />
-be,4<br />
+GIT,18<br />
+is,8<br />
+the,5<br />
+best,4<br />
 in,4<br />
+the,4<br />
+world,3<br />
 
 ## Future Enhancements
 
@@ -138,4 +140,6 @@ The files are randomly generated. Different files will make for different perfor
 ### Conclusion
 
 While there is no one-size-fits-all answer to the optimal chunk size, in this case it seems that using 512KB chunks is more effective. Be prepared to adjust based on performance tests and the specific characteristics of your application's workload. Always test with representative data and monitor resource usage to find the best configuration. We must always havee in mind File Size, Memory, I/O Performance, Network or even Processing Overhead.
+
+
 
