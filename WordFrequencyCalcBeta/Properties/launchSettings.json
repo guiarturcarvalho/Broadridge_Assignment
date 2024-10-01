@@ -2,7 +2,7 @@
   "profiles": {
     "WordFrequencyCalcBeta": {
       "commandName": "Project",
-      "commandLineArgs": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\input_text_beta.txt C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\output_text_beta.txt"
+      "commandLineArgs": "C:\\input_text_beta.txt C:\\output_text_beta.txt"
     }
   }
 }

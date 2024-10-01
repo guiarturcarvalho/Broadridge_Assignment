@@ -17,13 +17,13 @@ namespace WordFrequencyCalcBeta.Services
     {
         #region Class Variables
         // The chunk size for reading files in byte            
-        private const int _chunkSize = 512 * 1024 ; // 511KB   
+        private const int _chunkSize = 512 * 1024 ; // 512KB   
 
         #endregion
 
         #region Methods
         /// <summary>
-        /// Processes the input file in lines to count word frequencies.
+        /// Processes the input file to count word frequencies (line by line).
         /// </summary>
         /// <param name="filePath">Input file location</param>
         /// <returns>Dictionary with words and respective frequency</returns>
@@ -54,7 +54,7 @@ namespace WordFrequencyCalcBeta.Services
         }
 
         /// <summary>
-        ///  Processes the input file in chunks to count word frequencies.
+        ///  Processes the input file to count word frequencies (by chunk).
         /// </summary>
         /// <param name="filePath">Input file location</param>
         /// <returns>Dictionary with words and respective frequency</returns>

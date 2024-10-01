@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0F2F25AE-3731-4A6E-B7F8-495360D7202B}|WordFrequencyCalcBeta\\WordFrequencyCalcBeta.csproj|c:\\users\\guiar\\documents\\github\\broadridge_assignment\\wordfrequencycalcbeta\\infrastructure\\filewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F2F25AE-3731-4A6E-B7F8-495360D7202B}|WordFrequencyCalcBeta\\WordFrequencyCalcBeta.csproj|solutionrelative:wordfrequencycalcbeta\\infrastructure\\filewriter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{0F2F25AE-3731-4A6E-B7F8-495360D7202B}|WordFrequencyCalcBeta\\WordFrequencyCalcBeta.csproj|c:\\users\\guiar\\documents\\github\\broadridge_assignment\\wordfrequencycalcbeta\\services\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F2F25AE-3731-4A6E-B7F8-495360D7202B}|WordFrequencyCalcBeta\\WordFrequencyCalcBeta.csproj|solutionrelative:wordfrequencycalcbeta\\services\\fileprocessor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0F2F25AE-3731-4A6E-B7F8-495360D7202B}|WordFrequencyCalcBeta\\WordFrequencyCalcBeta.csproj|c:\\users\\guiar\\documents\\github\\broadridge_assignment\\wordfrequencycalcbeta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F2F25AE-3731-4A6E-B7F8-495360D7202B}|WordFrequencyCalcBeta\\WordFrequencyCalcBeta.csproj|solutionrelative:wordfrequencycalcbeta\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{312D169D-14F1-461E-8E09-A343C99CCE44}|TestProject\\TestProject.csproj|c:\\users\\guiar\\documents\\github\\broadridge_assignment\\testproject\\wordfrequencytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{312D169D-14F1-461E-8E09-A343C99CCE44}|TestProject\\TestProject.csproj|solutionrelative:testproject\\wordfrequencytests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,53 +19,15 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FileWriter.cs",
-              "DocumentMoniker": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\WordFrequencyCalcBeta\\Infrastructure\\FileWriter.cs",
-              "RelativeDocumentMoniker": "WordFrequencyCalcBeta\\Infrastructure\\FileWriter.cs",
-              "ToolTip": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\WordFrequencyCalcBeta\\Infrastructure\\FileWriter.cs",
-              "RelativeToolTip": "WordFrequencyCalcBeta\\Infrastructure\\FileWriter.cs",
-              "ViewState": "AgIAACUAAAAAAAAAAAAgwAkAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-30T21:22:32.553Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "FileProcessor.cs",
               "DocumentMoniker": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\WordFrequencyCalcBeta\\Services\\FileProcessor.cs",
               "RelativeDocumentMoniker": "WordFrequencyCalcBeta\\Services\\FileProcessor.cs",
               "ToolTip": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\WordFrequencyCalcBeta\\Services\\FileProcessor.cs",
               "RelativeToolTip": "WordFrequencyCalcBeta\\Services\\FileProcessor.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T22:08:20.044Z",
+              "WhenOpened": "2024-10-01T15:30:34.503Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\WordFrequencyCalcBeta\\Program.cs",
-              "RelativeDocumentMoniker": "WordFrequencyCalcBeta\\Program.cs",
-              "ToolTip": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\WordFrequencyCalcBeta\\Program.cs",
-              "RelativeToolTip": "WordFrequencyCalcBeta\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA1AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T22:06:27.126Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "WordFrequencyTests.cs",
-              "DocumentMoniker": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\TestProject\\WordFrequencyTests.cs",
-              "RelativeDocumentMoniker": "TestProject\\WordFrequencyTests.cs",
-              "ToolTip": "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\TestProject\\WordFrequencyTests.cs",
-              "RelativeToolTip": "TestProject\\WordFrequencyTests.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABDAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-26T21:14:48.295Z"
             }
           ]
         }

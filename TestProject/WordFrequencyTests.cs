@@ -23,7 +23,7 @@ namespace TestProject
         {
             //var input = new[] { "This is a test.", "This test is simple." };
 
-            var file = "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\input_text_alpha.txt";
+            var file = Path.Combine(Environment.CurrentDirectory, "input_text_alpha.txt");
             var wordFrequencies = ProgramAlpha.GetWordFrequencies(file);
 
             Assert.That(wordFrequencies["This"], Is.AtLeast(1));
@@ -38,9 +38,9 @@ namespace TestProject
         /// </summary>
         [Test]
         public void CompleteTest()
-        {            
-            var inputFile = "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\input_text_alpha.txt";
-            var outputFile = "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\output_text_alpha.txt";
+        {
+            var inputFile = Path.Combine(Environment.CurrentDirectory, "input_text_alpha.txt");
+            var outputFile = Path.Combine(Environment.CurrentDirectory, "output_text_alpha.txt");
             var wordFrequencies = ProgramAlpha.GetWordFrequencies(inputFile);
 
             // Sort by frequency and then alphabetically
@@ -73,7 +73,7 @@ namespace TestProject
         [Test, Order(1)]
         public void CreateTestFile()
         {
-            var filePath = "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\input_text_beta.txt";
+            var filePath = Path.Combine(Environment.CurrentDirectory, "input_text_beta.txt");
             ///Create file for testing            
             FileWriter.GenerateRandomTextFile(filePath, 2000);
 
@@ -89,7 +89,7 @@ namespace TestProject
         {
             //var input = new[] { "This is a test.", "This test is simple." };
 
-            var file = "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\input_text_beta.txt";
+            var file = Path.Combine(Environment.CurrentDirectory, "input_text_beta.txt");
             var wordFrequencies = await FileProcessor.ProcessFileByChunksAsync(file);
 
             Assert.That(wordFrequencies["Boris"], Is.AtLeast(10));
@@ -108,8 +108,8 @@ namespace TestProject
         [Test]
         public async Task CompleteTest()
         {
-            var inputFile = "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\input_text_beta.txt";
-            var outputFile = "C:\\Users\\guiar\\Documents\\GitHub\\Broadridge_Assignment\\output_text_beta.txt";
+            var inputFile = Path.Combine(Environment.CurrentDirectory, "input_text_beta.txt");
+            var outputFile = Path.Combine(Environment.CurrentDirectory, "output_text_beta.txt");
             var wordFrequencies = await FileProcessor.ProcessFileByChunksAsync(inputFile);
 
             // Sort by frequency and then alphabetically
