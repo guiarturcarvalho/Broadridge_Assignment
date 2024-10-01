@@ -23,14 +23,14 @@ The application (Beta) follows a modular architecture (Layered Architecture) wit
 WordFrequencyCounter
 │
 ├── WordFrequencyCalcAlpha			// Alpha Version (Monolithic Architecture & Simplistic Approach)
-│   │
-│   ├── Program.cs				// Monolith
+│   └── Program.cs				// Monolith
 │   │
 ├── WordFrequencyCalcBeta			// Beta Version (Layered Architecture)
+│   └── Program.cs				// Presentation layer | Entry point
 │   │
-│   ├── Program.cs				// Presentation layer | Entry point
 │   ├── Services
-│   │   ├── FileProcessor.cs			// File chunk reading and processing logic
+│   │   └── FileProcessor.cs			// File chunk reading and processing logic
+│   │
 │   ├── Infrastructure
 │   │   └── FrequencyWriter.cs			// File writing logic
 Tests
