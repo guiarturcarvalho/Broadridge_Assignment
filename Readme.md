@@ -141,7 +141,7 @@ The files are randomly generated. Different files will make for different perfor
 
 ### Conclusion
 
-While there is no one-size-fits-all answer to the optimal chunk size, in this case it seems that using 512KB chunks is more effective. Be prepared to adjust based on performance tests and the specific characteristics of your application's workload. Always test with representative data and monitor resource usage to find the best configuration. We must always havee in mind File Size, Memory, I/O Performance, Network or even Processing Overhead.
+While there is no one-size-fits-all answer to the optimal chunk size, in this case it seems that using 512KB chunks is more effective. Be prepared to adjust based on performance tests and the specific characteristics of your application's workload. Always test with representative data and monitor resource usage to find the best configuration. We must always have in mind File Size, Memory, I/O Performance, Network or even Processing Overhead.
 
 
 
